@@ -1,0 +1,15 @@
+//
+// Copyright (C) 2024 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+    apk: "WallMan.apk",
+    name: "WallMan",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
