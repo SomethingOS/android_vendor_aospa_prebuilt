@@ -1,0 +1,11 @@
+android_app_import {
+    name: "MaterialFiles",
+    product_specific: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    overrides: ["FilesGoogle"],
+    compile_multilib: "both",
+    apk: "MaterialFiles.apk",
+}
