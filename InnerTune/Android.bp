@@ -11,5 +11,6 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
+    overrides: ["YouTube"],
     product_specific: true,
 }
