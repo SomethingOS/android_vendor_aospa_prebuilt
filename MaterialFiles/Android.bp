@@ -1,19 +1,19 @@
 android_app_import {
-    name: "MaterialFiles",
+    name: "FilesMaterial",
     product_specific: true,
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
-    overrides: ["FilesGoogle"],
+    overrides: ["FilesGoogle", "MaterialFiles"],
     compile_multilib: "both",
-    apk: "MaterialFiles.apk",
-    required: ["privapp_whitelist_materialfiles"],
+    apk: "FilesMaterial.apk",
+    required: ["privapp_whitelist_filesmaterial"],
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_materialfiles",
-    src: "privapp_whitelist_materialfiles.xml",
+    name: "privapp_whitelist_filesmaterial",
+    src: "privapp_whitelist_filesmaterial.xml",
     product_specific: true,
     sub_dir: "permissions",
 }
